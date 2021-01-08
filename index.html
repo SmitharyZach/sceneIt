@@ -1,0 +1,40 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <script src="index.js"></script>
+   
+  </head>
+  <body>
+    <nav class="navbar justify-content-between">
+      <div class="navbar">
+        <h1 >Scene IT</h1>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link p-3" href="./watchlist.html">Watchlist <span class="sr-only">(current)</span></a>
+          </li>
+      </div>
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="text" id='searchInput' placeholder="Search" aria-label="Search">
+          <button class="btn my-2 my-sm-0 movieSearch" id="movieGoSearch" type="submit">Search</button>
+        </form>
+      </nav>
+      <div class="jumbotron container">
+        <h1 class="display-4">A Home For Your Movies</h1>
+        <p class="lead">Search for a movie, save it to your watchlist</p>
+        <p class="lead">Mark it as watched to never loose track of everything you have seenc</p>
+      </div>
+    <div class="moviesContainer container">
+        <div class="card-group movieRow"></div>
+    </div>
+  </body>
+</html>

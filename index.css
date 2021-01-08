@@ -1,0 +1,26 @@
+body,
+.jumbotron {
+  background-color: #203647;
+}
+
+.card-title {
+  color: #eefbfb;
+}
+
+h1,
+p,
+.movieSearch {
+  color: #eefbfb;
+}
+
+h1 {
+  font-family: "Monoton", cursive;
+}
+
+.movieSearch:hover {
+  background-color: #007cc7;
+}
+
+.movieSearch {
+  border: #007cc7 1px solid;
+}
